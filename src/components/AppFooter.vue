@@ -6,7 +6,7 @@
     >
 
       <div class="footer">
-        Copyright @KANZAKIIDEA 2020. All right reserved
+        Copyright @hiran0rm 2020. All right reserved
       </div>
 
     </v-footer>
