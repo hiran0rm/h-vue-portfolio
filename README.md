@@ -1,4 +1,4 @@
-# h-vue-portfolio
+# ideart
 
 ## Project setup
 ```
