@@ -21,8 +21,8 @@ export default {
         url: '/blog'
       },
       {
-        name: 'ACCESS',
-        url: '/acess'
-      }
+        name: 'CONTACT',
+        url: '/contact'
+      },
     ]
   }

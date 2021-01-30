@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import constants from '../common/constants.js'
+import constants from '../../common/constants.js'
 
 export default {
     name: 'AppHeader',
@@ -60,7 +60,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/common/common.scss";
+@import "../../styles/common/common.scss";
 
 .v-toolbar__title {
   overflow: visible !important;

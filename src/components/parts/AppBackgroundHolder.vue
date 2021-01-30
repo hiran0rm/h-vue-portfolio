@@ -22,10 +22,10 @@ export default {
 </script>
 
 <style  lang="scss" scoped>
-@import "../styles/common/common.scss";
+@import "../../styles/common/common.scss";
 
 .background-holder__content {
-  background: url("../assets/home-hero.png");
+  background: url("../../assets/home-hero.png");
   background-size: cover;
   background-position: center center;
   width: 100%;

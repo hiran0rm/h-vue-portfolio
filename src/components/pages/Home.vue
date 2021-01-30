@@ -5,8 +5,8 @@
   </section>
 </template>
 <script>
-import HomeHero from './HomeHero.vue'
-import HomeAbout from './HomeAbout.vue'
+import HomeHero from '../parts/HomeHero.vue'
+import HomeAbout from '../parts/HomeAbout.vue'
  
 export default {
   components: {
