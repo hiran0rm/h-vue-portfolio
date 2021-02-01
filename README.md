@@ -1,4 +1,4 @@
-# ideart
+# vueで作ったサイトのportfolio
 
 ## Project setup
 ```
