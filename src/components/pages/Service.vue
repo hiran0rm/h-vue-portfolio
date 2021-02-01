@@ -111,7 +111,7 @@ export default {
 
 <style lang="scss" scoped>
 .VueCarousel{
-  height: 300px;
+  height: 100%;
 }
 .VueCarousel-wrapper, .VueCarousel-inner, .VueCarousel-slide{
   height: 100% !important;
