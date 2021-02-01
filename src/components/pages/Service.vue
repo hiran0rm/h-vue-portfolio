@@ -2,6 +2,29 @@
   <section class="service">
     <AppBackgroundHolder :title="title"/>
     <h2>ここには実装可能なパーツを載せます。</h2>
+
+    <carousel
+      :autoplay="true"
+      :loop="true"
+      :per-page="1"
+      :speed="1200">
+        <slide>
+          <img src='../../assets/carousel/09_carousel_01.jpg' alt="スライド1">
+        </slide>
+        <slide>
+          <img src='../../assets/carousel/09_carousel_02.jpg' alt="スライド2">
+        </slide>
+        <slide>
+          <img src='../../assets/carousel/09_carousel_03.jpg' alt="スライド3">
+        </slide>
+        <slide>
+          <img src='../../assets/carousel/09_carousel_04.jpg' alt="スライド4">
+        </slide>
+        <slide>
+          <img src='../../assets/carousel/09_carousel_05.jpg' alt="スライド5">
+        </slide>
+    </carousel>
+
     <div id="textform">
       <div id="inputtext">
         <h3>入力フォーム</h3>
@@ -9,6 +32,7 @@
         <p>入力メッセージ： {{message}} </p>
       </div>
     </div>
+
     <div id="checkform">
       <div id="checkbox">
         <h3>チェックボックス</h3>
@@ -64,6 +88,7 @@
 
 <script>
 import AppBackgroundHolder from '../parts/AppBackgroundHolder.vue'
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
   data () {
@@ -77,12 +102,35 @@ export default {
     }
   },
   components: {
-    AppBackgroundHolder
+    AppBackgroundHolder,
+    Carousel,
+    Slide
   }
 }
 </script>
 
 <style lang="scss" scoped>
+.VueCarousel{
+  height: 300px;
+}
+.VueCarousel-wrapper, .VueCarousel-inner, .VueCarousel-slide{
+  height: 100% !important;
+}
+.VueCarousel-slide .slider-inner {
+  height: 100%;
+  background-color: #62caaa; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: #fff; 
+  border: 2px solid #fff;
+  font-size: 30px; 
+  border-radius: 10px;
+}
+img {
+  width: 80%;
+  height: 80%;
+}
 h2 {
   padding: 1em;
   padding-left: 6em;
