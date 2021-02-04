@@ -1,13 +1,15 @@
 <template>
   <section class="blog">
     <AppBackgroundHolder :title="title"/>
-    <h2>ここはブログページになる予定です。</h2>
+    <h2>ブログサイト構築のポートフォリオ</h2>
+    <p>別でデプロイしたVuepressで作ったブログのポートフォリオサイトも載せておきました。</p>
+    <a href="https://h-vuepress-portfolio.netlify.app/">Vuepressブログポートフォリオはこちら</a>
   </section>
 </template>
 
 <script>
 import AppBackgroundHolder from '../parts/AppBackgroundHolder.vue'
- 
+
 export default {
   data () {
     return {
